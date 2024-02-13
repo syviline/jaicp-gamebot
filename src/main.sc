@@ -27,6 +27,13 @@ theme: /
                     q: * ~открывать *
                     a: В сундуке вы нашли золотые монеты.
                        Их ровно {{ getRandomInt(100) }}
+            
+            state: Straight
+                # продолжить
+            
+            state: GoBack
+                # вернуться
+                
         state: NoMelon
             event: noMatch
             a: На эльфийском друг!
